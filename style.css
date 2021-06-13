@@ -1,0 +1,261 @@
+.body{font-family: 'Roboto', sans-serif;}
+
+.our-mennuemy{
+    padding: 10px 20px;
+}
+.header-menue .container-fluid{
+    max-width: 1470px;
+}
+
+.our-pramiary-menue li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 500;
+color: black;
+}
+.header-search{
+    width: 60px;
+    font-size: 30px;
+    margin-right: 20px;
+    border-right: 1px solid red;
+    
+}
+.heder-call{
+    width: 220px;
+}
+.header-call-info{
+    
+}
+.header-button{}
+.Header-call-icone{
+    font-size: 20px;
+}
+.btn-primary{
+    background: #e83b3e;
+    border-color: #e83b3e;
+    padding: 12px 35px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+}
+.btn-primary::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+background-color: black;
+border-color: black;
+z-index: -1;
+
+}
+.btn-primary::hover::after{
+    width: 100%;
+    visibility: visible;
+}
+
+/* banner section. */
+.slider-section{
+    background-image: url(./img/main-banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+    height: auto;
+    background-attachment: fixed;
+}
+.slider-contant-weap{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.banner-section-item{}
+.banner-section-item h6{
+    
+    font-size: 20px;
+    font-weight: 400;
+    color: #e83b3e;
+}
+.banner-section-item h1{
+    font-size: 90px;
+    font-weight: 700;
+
+}
+.banner-section-item p{
+    font-size: 25px;
+    color: #808080;
+}
+.slider-social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    
+
+}
+.bmm{}
+.bmm li{}
+.bmm li a i{
+    list-style: none;
+    text-decoration: none;
+    font-size: 50px;
+}
+/* service info. */
+.service-img{
+
+}
+.service-img li{
+    list-style: none;
+    padding: 20px 50px;
+}
+.service-img li img{
+    
+}
+/* apply in. */
+.apply section{}
+.apply-text{
+    position: relative;s
+}
+
+.stee-timeline{
+    
+}
+.stee-timeline ul{
+    list-style: none;
+    
+}
+.stee-timeline ul li{
+    margin-bottom: 25px;
+    position: relative;
+    
+}
+.stee-timeline ul li strong{
+    font-size:25px;
+    margin-top: 5px;
+    display: block;
+    color: ;
+    
+}
+.stee-timeline ul li p{
+    font-size: 15px;
+}
+.stee-timeline ul::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 1px;
+background: red;
+    height: 60%;
+    margin-top: 100px;
+}
+.stee-timeline ul li::before{
+    content: attr(data-counter);
+    position: absolute;
+    left: -77px;;
+    top: 0;
+    height: 50px;
+    width: 50px;
+background: #f9fafb;
+    
+border: 1px solid red;
+border-radius: 50%;
+line-height: 50px;
+text-align: center;
+}
+/* form. */
+.calculate-rate{
+    background: #ffedec;
+    padding: 50px;
+}
+.calculate-rate h4{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9ac3eb;
+}
+.calculate-rate h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.button a{
+    display: block;
+    margin-top: 20px;
+}
+
+/* asjghd */
+
+.text-yy{
+    background: #e73c3e;
+    padding: 20px;
+}
+
+/* .copmany-2. */
+
+.copmpany-2 li ::before{
+    content: '';
+    left: 0;
+    top: 0;
+    position: absolute;
+    
+}
+.calculate-forome{
+    margin-top: 10px;
+}
+.calculate-forome .form-group{
+    margin-top: 10px;
+}
+/* call-items. */
+
+.call-section-items{
+    background: #e83b3e;
+}
+.call-id{
+
+}
+.call-id  i{
+    font-size: 30px;
+    display: inline-block;
+    color: red;
+    background: white;
+    border-radius:50%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+.call-id a{
+    padding: 20px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.text{
+    color: white;
+    font-size: 30px;
+    font-size: 600;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+/* company value . */
+
+.valub i{
+    font-size: 40px;
+    color: #e83b3e;
+    margin-top: 40px;
+
+}
+.value-text{}
+.value-text h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+.value-text p{
+    background: #ffffff;
+}.
